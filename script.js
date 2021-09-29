@@ -39,7 +39,6 @@ function update(event) {
 
 }
 
-
 function iniciarJogo() {
 
     if(snake[0].x > 15 * box && direction == "right") snake[0].x = 0;
@@ -52,7 +51,6 @@ function iniciarJogo() {
             clearInterval(jogo);
             alert('Gamer Over :(');
         }
-
     }
 
     criarBG();
